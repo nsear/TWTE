@@ -1,0 +1,23 @@
+{
+  "miniprogramRoot": "./dist",
+  "projectname": "TWTE",
+  "description": "Wht are we eating today?",
+  "appid": "wxb6afc8d066540b90",
+  "setting": {
+    "urlCheck": true,
+    "es6": true,
+    "enhance": true,
+    "compileHotReLoad": false,
+    "postcss": true,
+    "minified": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "condition": true,
+    "compileWorklet": true,
+    "uglifyFileName": true
+  },
+  "compileType": "miniprogram"
+}

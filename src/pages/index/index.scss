@@ -1,0 +1,120 @@
+.flex {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.center {
+  text-align: center;
+}
+
+.title {
+  background-image: linear-gradient(to right, #00f260, #0575e6);
+  color: transparent;
+  -webkit-background-clip: text;
+          background-clip: text;
+  font-size: 60px;
+  margin-bottom: 150px;
+}
+
+.tips {
+  background-image: linear-gradient(to right, #f00000, #dc281e);
+  color: transparent;
+  -webkit-background-clip: text;
+          background-clip: text;
+  margin-bottom: 100px;
+}
+
+.to {
+  padding-right: 20px;
+  text-align: right;
+  font-size: 24px;
+  background-image: linear-gradient(to right, #92FE9D, #00C9FF);
+  color: transparent;
+  -webkit-background-clip: text;
+          background-clip: text;
+}
+
+.heart-red {
+  color: red;
+}
+
+#frame {
+  position: relative;
+  width: 200px;
+  height: 150px;
+  margin: 0 auto 100px;
+}
+
+.left,
+.right {
+  top: 0;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.left {
+  left: 17.5px;
+
+}
+
+.right {
+  right: 17.5px;
+  z-index: -1;
+}
+
+.bottom {
+  bottom: 18px;
+  left: 50px;
+  width: 100px;
+  height: 100px;
+  transform: rotate(45deg);
+  z-index: -1;
+
+}
+
+.heart {
+  position: absolute;
+  box-shadow: 0 0 20px #d5093c;
+  -webkit-animation: beat .4s ease infinite normal;
+          animation: beat .4s ease infinite normal;
+  background: linear-gradient(-90deg, #F50A45 0%, #d5093c 40%);
+}
+
+@-webkit-keyframes beat {
+  0% {
+      transform: scale(1) rotate(225deg);
+      box-shadow: 0 0 20px #d5093c;
+  }
+
+  50% {
+      transform: scale(1.1) rotate(225deg);
+      box-shadow: 0 0 35px #d5093c;
+  }
+
+  100% {
+      transform: scale(1) rotate(225deg);
+      box-shadow: 0 0 35px #d5093c;
+      ;
+  }
+}
+
+@keyframes beat {
+  0% {
+      transform: scale(1) rotate(225deg);
+      box-shadow: 0 0 20px #d5093c;
+  }
+
+  50% {
+      transform: scale(1.1) rotate(225deg);
+      box-shadow: 0 0 35px #d5093c;
+  }
+
+  100% {
+      transform: scale(1) rotate(225deg);
+      box-shadow: 0 0 35px #d5093c;
+      ;
+  }
+}
